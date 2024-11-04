@@ -1,39 +1,63 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Static Page</title>
+    <title>Baris Akyurek - Contact Information</title>
     <style>
-    .contact-blurb {
-        text-align: center; /* Centers the text */
-        font-family: Arial, sans-serif; /* Change this to your preferred font */
-        margin: 50px auto; /* Adds space around the blurb */
-        max-width: 600px; /* Optional: limits width for better readability */
-    }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-    .contact-blurb p {
-        font-size: 18px; /* Adjusts the size of the text */
-    }
+        .contact-blurb {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
 
-    .contact-blurb a {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #0077B5; /* LinkedIn color */
-        color: white;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-top: 10px;
-    }
+        .contact-blurb h1 {
+            margin-bottom: 20px;
+            color: #0077B5;
+        }
 
-    .contact-blurb a:hover {
-        background-color: #005582; /* Darker shade on hover */
-    }
-</style>
+        .contact-blurb p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .contact-blurb a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0077B5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-blurb a:hover {
+            background-color: #005582;
+        }
+    </style>
 </head>
 <body>
     <div class="contact-blurb">
-    <p>Hi there!<br>
-    I'm Baris, based in Toronto, Canada. If you'd like to connect or discuss opportunities, feel free to reach out to me via barisakyurek@gmail.com </p
-</div>
-       </body>
+        <h1>Contact Me</h1>
+        <p>Hi there!<br>
+        I'm Baris, based in Toronto, Canada. If you'd like to connect or discuss opportunities, feel free to reach out to me via email:</p>
+        <a href="mailto:barisakyurek@gmail.com">barisakyurek@gmail.com</a>
+    </div>
+</body>
 </html>
