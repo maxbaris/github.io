@@ -1,18 +1,54 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baris Akyurek - Personal Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        p {
+            margin-bottom: 1.5rem;
+        }
+        .contact-links a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        .contact-links a:hover {
+            color: #2980b9;
+        }
+    </style>
 </head>
 <body>
-    <h1>Baris Akyurek</h1>
-    <p>My name is Baris Akyurek, I live in Toronto. </p>
-    <h2>Contact Me</h2>
-    <ul>
-        <li>Email: <a href="mailto:barisakyurek@gmail.com">barisakyurek@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/barisakyurek?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B6y2GieqrTeOz7C1AL1L3gw%3D%3D" target="_blank">Your LinkedIn Profile</a></li>
-    </ul>
+    <div class="container">
+        <h1>Baris Akyurek</h1>
+        <p>My name is Baris Akyurek, I live in Toronto.</p>
+        <div class="contact-links">
+            <a href="mailto:barisakyurek@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/barisakyurek" target="_blank">LinkedIn</a>
+        </div>
+    </div>
 </body>
 </html>
